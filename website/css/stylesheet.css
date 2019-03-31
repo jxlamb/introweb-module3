@@ -1,0 +1,335 @@
+
+/*
+    colors
+    green font: 557c3e
+    yellow header: f6b319
+    background and menu items: 61122f
+    footer grey background: 363636
+
+*/
+*{
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+.fa {
+    font-size: 2em;
+}
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-light .navbar-toggler {
+    color: #951c49;
+    border-width: 2px;
+    border-color: #951c49;
+}
+.navbar-light .navbar-toggler a:hover {
+    color: #951c49;
+    border-color: #951c49;
+}
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #4d0e0e;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand p {
+    margin-top: 5px;
+    color: #557c3e;
+    text-transform: uppercase;
+    font-size: .7em;
+}
+#logo-img {
+    background: url('../images/restaurant-logo_large.png');
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+.navbar-expand {
+    padding-top: 25px;
+}
+#nav-list a {
+    color: #951c49;
+}
+#nav-list a:hover, #nav-list .active {
+    background: #e7e7e7;
+}
+
+li span{
+    font-size: .5em;
+}
+
+#phone a {
+    display: inline-block;
+    text-align: right;
+    font-size: 1.5em;
+}
+
+#call-btn {
+    border: 2px solid;
+    border-color: #fff;
+    background-color: #f6b319;
+    margin: 15px;
+    border-radius: 5px;
+    color: #951c49;
+}
+#call-btn a {
+    font-size: 1.25em;
+    color: #951c49;
+}
+#call-btn a:hover {
+    color: white;
+}
+#xs-deliver {
+    font-size: .6em;
+    margin: -10px 5px 5px 5px;
+}
+
+.img-responsive {
+    width: 100%;
+    height: 100%;
+}
+.container .jumbotron {
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c14;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+    background: url('../images/Beef Bowl.jpg') no-repeat center center;
+    background-size: cover;
+}
+#specials-tile {
+    background: url('../images/noodle.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #000;
+    opacity: .8;
+    font-family: 'Lora', serif;
+}
+
+.category-tile{
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+.category-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+.category-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div{
+    margin-bottom: 50px;
+}
+
+.page-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+.page-footer div.row{
+    margin-bottom: 35px;
+}
+hr {
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+    width: 80%;
+}
+#hours, #address{
+    line-height: 2;
+}
+#hours > span, #address > span{
+    font-size: 1.3em;
+}
+#address p{
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+#testimonials{
+    font-style: italic;
+}
+#testimonials p:nth-child(2){
+    margin-top: 25px;
+}
+
+#menu-categories-title + div {
+    margin-bottom: 50px;
+}
+.menu-item-title .menu-item-price {
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+.menu-item-photo {
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+.menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+    padding-right: 5px;
+}
+.menu-item-description {
+    padding-right: 30px;
+}
+h3.menu-item-title {
+    margin: 0 0 10px;
+}
+.menu-item-details{
+    font-size: .9em;
+    font-style: italic;
+}
+/*super extra small*/
+@media(max-width: 479px){
+    .col-xxs-12{
+        width: 100%;
+        float:left;
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+/*extra small*/
+@media(min-width: 480px) and (max-width: 766px) {
+    .col-xs-6 {
+        width: 50%;
+        float: left;
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/*small*/
+@media (max-width: 767px) {
+    .navbar-brand h1{
+        font-size: 5vw;
+    }
+    .fa{
+        font-size: 1.5em;
+        margin-right: 10px;
+    }
+    .jumbotron {
+        margin-top: 30px;
+        padding: 0px;
+    }
+    .page-footer section{
+        text-align: center;
+    }
+}
+
+/*medium*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .container .jumbotron {
+        background: url('../images/restaurant-sm.jpg') no-repeat;
+        height: 470px;
+        margin: 5px 5px 5px 0;
+    }
+}
+
+/*large*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container .jumbotron {
+        background: url('../images/restaurant-lg.jpg') no-repeat;
+        height: 600px;
+        margin: 5px 5px 5px 0;
+    }
+    .menu-item-price {
+        margin-bottom: 15px;
+    }
+}
+
+/*extra large*/
+@media (min-width: 1200px){
+    .container .jumbotron {
+        background: url('../images/restaurant-xlg.jpg') no-repeat;
+        width: 100%;
+        height: 100%;
+        height: 675px;
+    }
+    .menu-item-price {
+        margin-bottom: 25px;
+    }
+}
+
+/*medium and up*/
+@media (min-width: 768px) {
+    li .fa {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+/*medium and large*/
+@media (min-width: 768px) and (max-width: 1199px) {
+    #logo-img {
+        background: url('../images/restaurant-logo_medium.png') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+}
